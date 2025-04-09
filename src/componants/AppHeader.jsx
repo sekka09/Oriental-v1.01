@@ -6,7 +6,7 @@ export default function AppHeader (){
     const [nav,setnav] = useState(false)
     return (
         <div style={{background : 'white' }} className="h-28 w-full opacity-95 sticky top-0 flex max-md:justify-between items-center px-6 backdrop-blur-lg text-black z-50">
-            <img className=" h-full" src={logo} alt="" />
+            <img className=" h-full" src={logo} alt="" onclick={()=>{window.location.href = "https://www.orientalparfum.shop;}} />
             
             
             <ul className="h-full w-full mx-5 flex items-center justify-evenly max-md:hidden">
