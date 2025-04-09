@@ -65,10 +65,10 @@ export default function AppFragrances (props){
             <div className="my-12 w-full flex ">
            <h1 style={{color : "black"}} className="text-7xl max-lg:text-5xl font-bold px-8"> Fragrances</h1>
             </div> 
-            <div className="w-full flex flex-wrap justify-between px-12 my-12   ">
-                <div id="Name" onClick={(e)=>{ getSiblings(e.target);   }} className="py-2 cursor-pointer text-center px-6 rounded-xl m-2 border-2 border-black  text-lg font-bold" >Name</div>
-                <div id="Price" onClick={(e)=>{ getSiblings(e.target);   }} className="py-2 cursor-pointer text-center px-6 rounded-xl m-2 border-2 border-black text-lg font-bold ">Price : Low to High</div>
-                <div id="Latest" onClick={(e)=>{ getSiblings(e.target);   }} className="py-2 cursor-pointer text-center px-6 rounded-xl m-2 border-2 border-black text-lg font-bold ">Latest </div>
+            <div className="w-full flex flex-wrap justify-between px-12 my-12  max-sm:px-2 max-sm:my-4  ">
+                <div id="Name" onClick={(e)=>{ getSiblings(e.target);   }} className="py-2 cursor-pointer text-center px-6 rounded-xl m-2 border-2 border-black  text-lg font-bold  max-sm:text-sm" >Name</div>
+                <div id="Price" onClick={(e)=>{ getSiblings(e.target);   }} className="py-2 cursor-pointer text-center px-6 rounded-xl m-2 border-2 border-black text-lg font-bold  max-sm:text-sm ">Price : Low to High</div>
+                <div id="Latest" onClick={(e)=>{ getSiblings(e.target);   }} className="py-2 cursor-pointer text-center px-6 rounded-xl m-2 border-2 border-black text-lg font-bold  max-sm:text-sm">Latest </div>
                  </div>
 
             
