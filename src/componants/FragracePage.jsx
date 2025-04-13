@@ -114,7 +114,7 @@ export default function FragrancePage (props){
     },[])
     useEffect(()=>{ if (livraison === "B")
         settotal(parseFloat(filter.price)+parseFloat(selected.PrixB)); else settotal(parseFloat(filter.price)+parseFloat(selected.PrixAD))
-    },[filter,selected])
+    },[filter,selected,livraison])
     useEffect(()=>
         {
             setpromoapp(false)
