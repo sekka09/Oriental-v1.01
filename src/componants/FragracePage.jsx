@@ -139,7 +139,7 @@ export default function FragrancePage (props){
                    ) }
                 </div>
                 <div className="lg:w-3/6 flex justify-center">
-                    <img className="rounded-lg"  src={imgdisplayed}  alt="" />
+                    <img className="lg:max-h-96 rounded-lg"  src={imgdisplayed}  alt="" />
                 </div>
                 <div className="lg:w-1/6 lg:hidden flex gap-4 justify-between"> 
                    {filterResults.map((element)=><img key={element.id} onClick={(e)=> {setimgdisplayed(e.target.src)}} className="h-12 w-12 my-6 rounded-lg bg-gray-500 cursor-pointer" src={element.img} alt="" />) }
@@ -172,12 +172,7 @@ export default function FragrancePage (props){
                 <div style={{backgroundColor: "#fffafa"}}  className="p-8 border-2 border-black w-2/5 max-md:w-full max-md:my-4 rounded-xl">
                 <p className="text-black">
                     <h1 className="text-xl font-bold mb-1 ">Description :</h1> 
-                    {fragrance.description} <br/>
-                                         Fragrance Family: {fragrance.fragrancefamily} <br />
-
-                    Instantly recognizable, it has become a genuine signature scent, unique* in its confident virility. <br />
-
-                    Like a deep breath of fresh air, {fragrance.name} is a bold composition for a man who is true to himself.   <br />      
+                    {fragrance.description}     
                     </p>
                 </div>
                 <div style={{backgroundColor: "#fffafa"}}  className="p-8 border-2 border-black w-2/5 max-md:w-full max-md:my-4 rounded-xl">
