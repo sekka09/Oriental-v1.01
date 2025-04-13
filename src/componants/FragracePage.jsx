@@ -139,7 +139,7 @@ export default function FragrancePage (props){
                    ) }
                 </div>
                 <div className="lg:w-3/6 flex justify-center">
-                    <img className="lg:h-96 lg:w-96 rounded-lg"  src={imgdisplayed}  alt="" />
+                    <img className="rounded-lg"  src={imgdisplayed}  alt="" />
                 </div>
                 <div className="lg:w-1/6 lg:hidden flex gap-4 justify-between"> 
                    {filterResults.map((element)=><img key={element.id} onClick={(e)=> {setimgdisplayed(e.target.src)}} className="h-12 w-12 my-6 rounded-lg bg-gray-500 cursor-pointer" src={element.img} alt="" />) }
