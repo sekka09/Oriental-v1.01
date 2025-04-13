@@ -172,7 +172,7 @@ export default function FragrancePage (props){
                 <div style={{backgroundColor: "#fffafa"}}  className="p-8 border-2 border-black w-2/5 max-md:w-full max-md:my-4 rounded-xl">
                 <p className="text-black">
                     <h1 className="text-xl font-bold mb-1 ">Description :</h1> 
-                    {fragrance.description}
+                    {fragrance.description} <br/>
                                          Fragrance Family: {fragrance.fragrancefamily} <br />
 
                     Instantly recognizable, it has become a genuine signature scent, unique* in its confident virility. <br />
