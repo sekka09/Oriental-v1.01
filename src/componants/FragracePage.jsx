@@ -179,7 +179,7 @@ export default function FragrancePage (props){
                     <p className="text-black">
                     <h1 className="text-xl font-bold mb-1 ">Delivery Type :</h1> 
                                     <span className="font-medium text-lg">Standard Delivery / توصيل عادي (الى المكتب)  </span>  <br />
-                                    Delivery within 2-4 working days / التسليم خلال 2-4 أيام عمل
+                                    Delivery within 24-48h / 24-48h التسليم خلال
                                      <br />
                                     <span className="font-medium text-lg">Express Delivery</span>  <br />
                                     Home delivery./توصيل الطلبات للمنازل <br />        
