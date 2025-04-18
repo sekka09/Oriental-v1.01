@@ -33,7 +33,7 @@ export default function FragrancePage (props){
   })
     const [filter,setfilter]=useState({
         ml : "50",
-        price : "2500"
+        price : "3600"
     })
     const [livraison,setlivraison]= useState("B")
     const [filterResults,setfilterResults]=useState([
