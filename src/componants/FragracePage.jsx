@@ -57,7 +57,7 @@ export default function FragrancePage (props){
     function getSiblings (e) {
         e.classList.add('bg-black');
         e.classList.add('text-white');
-        if (e.id==="50") setfilter({ml : "50", price :2500});  else setfilter({ml : "100", price :fragrance.price});
+        if (e.id==="50") setfilter({ml : "50", price :3600});  else setfilter({ml : "100", price :fragrance.price});
        
        
         let sibling  = e.parentNode.firstChild;
